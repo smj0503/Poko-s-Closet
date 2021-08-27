@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>T11</title>
+		<meta charset="utf-8">
+		<style>
+		h1 {
+			font-size: 64px;
+			text-align: center;
+			padding-bottom: 30px;
+			border-bottom: 3px solid black;
+		}
+		.image {
+			display: block;
+			margin-left: 150px;
+			margin-top: 50px;
+		}
+		.option {
+			margin-top: 50px;
+			margin-left: 200px;
+		}
+		table, th, td {
+            border:1px solid #ccc;
+            border-collapse: collapse;
+        }
+        th, td { padding:10px 20px; }
+		</style>
+	</head>
+
+	<body>
+		<h1>Poko's Closet</h1>
+		<img class="image" src="../../images/T11.jpg" height="600" style="float:left;">
+		<div class="option" style="float:left;">
+			<p class="name">Poko's Tshirts11</p>
+			<p class="price">20,000\</p>
+			<form>
+				<fieldset>
+				  <legend>사이즈 선택</legend>
+				  <p><b>주문할 상품을 선택해 주세요.</b></p>
+				  <ul>
+					<li>
+					  <label><input type="checkbox" value="s_3">S(90)</label>
+					  <input type="number">개
+					</li>
+					<li>
+					  <label><input type="checkbox" value="s_5">M(95)</label>
+					  <input type="number">개
+					</li>
+					<li>
+					  <label><input type="checkbox" value="f_3">L(100)</label>
+					  <input type="number">개
+					</li>
+					<li>
+					  <label><input type="checkbox" value="f_5">XL(105)</label>
+					  <input type="number">개
+					</li>
+				  </ul>   
+				     
+				</fieldset>
+			  </form>
+			<table>
+				<caption>사이즈표</caption>
+				<colgroup>
+				  <col style="background-color:#eee;">
+				  <col>
+				  <col span="2" style="width:150px">
+				  <!-- span 속성을 사용해 합치기 전
+				  <col style="width:150px">
+				  <col style="width:150px">
+				  -->
+				</colgroup>
+				<thead>
+				  <tr>
+					<th>S</th>
+					<th>M</th>
+					<th>L</th>
+					<th>XL</th>
+				  </tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>90</td>
+					    <td>95</td>
+					    <td>100</td>
+					    <td>105</td>
+					</tr>
+				</tbody>       
+			</table>
+
+			 
+			
+		</div>
+	</body>
+</html>
